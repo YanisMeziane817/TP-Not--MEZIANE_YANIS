@@ -117,8 +117,8 @@ class Magician(Character):
 
 def main():
 
-    warrior = Warrior("Conan")
-    magician = Magician("Merlin")
+    warrior = Warrior("Renekton")
+    magician = Magician("Oriana")
     sword = Weapon("Sword", attack=15)
     warrior.weapon = sword
     print(warrior)
